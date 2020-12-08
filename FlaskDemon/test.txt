@@ -1,0 +1,9 @@
+启动服务：
+celery -A back.celery_components.tasks beat
+redis-server.exe redis.windows.conf
+celery -A back.celery_components.tasks worker --loglevel=info
+# https://blog.csdn.net/galaxiansheng/article/details/99662965
+# https://segmentfault.com/a/1190000002409472
+# https://blog.csdn.net/libing_thinking/article/details/78812472
+# https://blog.csdn.net/Yg_Dmw/article/details/100583222
+# https://rickyhao.com/2019/12/18/celery-%E4%B8%8E-rabbitmq%EF%BC%9A%E5%85%B3%E4%BA%8Eexchange%E5%92%8Cqueue%E7%9A%84%E9%82%A3%E4%BA%9B%E4%BA%8B/
