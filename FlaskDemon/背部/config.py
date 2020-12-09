@@ -55,7 +55,7 @@ class Config:
 
 class MySQLConfig:
     MYSQL_USERNAME = 'root'
-    MYSQL_PASSWORD = 'password'
+    MYSQL_PASSWORD = ''
     MYSQL_HOST = 'localhost:3306'
     MYSQL_CHARSET = 'utf8mb4'  # 为了支持 emoji 显示，需要设置为 utf8mb4 编码
 
