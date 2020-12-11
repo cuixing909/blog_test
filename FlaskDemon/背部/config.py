@@ -38,12 +38,9 @@ class Config:
     # 163不支持STARTTLS
     MAIL_PORT = 465
     MAIL_USE_SSL = True
-    MAIL_USERNAME = 'lyssss201@163.com'
-    MAIL_PASSWORD = 'GKAABPBTGVHSRMLU'
-    # MAIL_USERNAME = os.getenv('MAIL_USERNAME')
-    # MAIL_PASSWORD = os.getenv('MAIL_PASSWORD')
-    # MAIL_DEFAULT_SENDER = ('别院牧志', os.getenv('MAIL_USERNAME'))
-    MAIL_DEFAULT_SENDER = ('别院牧志', 'lyssss201@163.com')
+    MAIL_USERNAME = os.getenv('MAIL_USERNAME')
+    MAIL_PASSWORD = os.getenv('MAIL_PASSWORD')
+    MAIL_DEFAULT_SENDER = ('别院牧志', os.getenv('MAIL_USERNAME'))
     # redis 配置
     # REDIS_URL = "redis://:password@localhost:6379/0"
     REDIS_URL = "redis://localhost:6379/0"
@@ -58,7 +55,7 @@ class Config:
 
 class MySQLConfig:
     MYSQL_USERNAME = 'root'
-    MYSQL_PASSWORD = 'password'
+    MYSQL_PASSWORD = ''
     MYSQL_HOST = 'localhost:3306'
     MYSQL_CHARSET = 'utf8mb4'  # 为了支持 emoji 显示，需要设置为 utf8mb4 编码
 
