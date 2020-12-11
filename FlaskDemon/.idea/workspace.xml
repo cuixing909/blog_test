@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="17478685-c85c-459a-987a-7d469fd91386" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/背部/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/背部/config.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -135,12 +136,23 @@
       <workItem from="1606352106789" duration="23469000" />
       <workItem from="1606438898148" duration="23486000" />
       <workItem from="1606698618467" duration="9228000" />
-      <workItem from="1607648390463" duration="229000" />
+      <workItem from="1607648390463" duration="868000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

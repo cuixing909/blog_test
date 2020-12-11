@@ -3,9 +3,8 @@
 """
 http://www.pythondoc.com/flask/config.html#id6
 """
-#
-# lyssss201@163.com
-# GKAABPBTGVHSRMLU
+
+
 import os
 
 basedir = os.path.abspath(os.path.dirname(__file__))
